@@ -1,0 +1,29 @@
+.fyyll-body{
+  background-color:green
+}
+
+.header{
+  display: inline-block;
+  background-color: white;
+  padding: 3px;
+  width: 100%;
+  font: 1em sans-serif;
+
+
+.header-nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    display: flex; /* Делаем элементы списка в одну строку */
+    gap: 15px; /* Отступ между элементами */
+    padding: 0; /* Убираем внутренние отступы списка */
+    margin: 0; /* Убираем внешние отступы списка */
+
+}
+
+.header-nav li {
+    /* Дополнительные стили для элементов списка, если нужно */
+}
+
+.header-nav a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: inherit; /* Наследуем цвет текста */
+    text-align-last: center;

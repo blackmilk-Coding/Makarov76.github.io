@@ -1,0 +1,41 @@
+.main-list{
+  background-color: gray;
+  padding: 5px 0px;
+}
+
+.main-genereihn{
+  display: inline-block;
+  background-color: red;
+  width: 150px;
+  height: 200px;
+  border-style: solid
+}
+.main-genereihn-text-van{
+  top: 100px;
+  display:flex;
+  padding: 10px;
+
+}
+.main-genereihn-namber-tfo-button-van{
+  display: inline-block; /* Делаем кнопку блочным элементом, но с возможностью выстраивания в строку */
+  padding: 5px 20px; /* Внутренние отступы (верх/низ и лево/право) */
+  font-size: 16px; /* Размер текста */
+  font-weight: bold; /* Жирный текст */
+  color: #fff; /* Цвет текста */
+  background-color: #007bff; /* Цвет фона */
+  border: none; /* Убираем границу */
+  border-radius: 7px; /* Закругляем углы */
+  cursor: pointer; /* Меняем курсор на указатель при наведении */
+  text-align: center; /* Выравниваем текст по центру */
+  text-decoration: none; /* Убираем подчеркивание у ссылки */
+  transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+  position: relative;
+  top: 50px;
+}
+.main-genereihn-namber-tfo-button-van:hover {
+  background-color: #0056b3; /* Меняем цвет фона при наведении */
+}
+
+/* Стили для активного состояния (когда кнопка нажата) */
+.main-genereihn-namber-tfo-button-van:active {
+  background-color: green; /* Меняем цвет фона при нажатии */
